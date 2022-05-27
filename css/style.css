@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(../fuentes/Poppins-Regular.ttf);
+}
+
+.body {
+    font-family: Poppins;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 500px 800px;
+    grid-template-rows: 58px;
+    align-items: center;
+    justify-content: center;
+}
+
+.nombre {
+    font-size: 24px;
+}
+.paginas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.paginas__text {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.presentacion {
+    display: grid;
+    grid-template-columns: 600px 450px;
+    grid-template-rows: 800px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.presentacion__text {
+    font-size: 27px;
+}
+
+.fotoperfil {
+    border-radius: 60% 40% 67% 33% / 49% 26% 74% 51% ;
+    width: 324px;
+    height: 432px;
+}
+
+.titulos {
+    font-size: 32px;
+    color: #303F9F;
+}
+
+.sobremi {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px 0 64px 0;
+}
+
+.sobremi__text {
+    display: grid;
+    grid-template-columns: 500px;
+    grid-template-rows: 50px 150px;
+    text-align: center;
+}
+
+.habilidades__titulo {
+    font-size: 24px;
+    color: #03A9F4;
+}
+
+.habilidades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1rem;
+}
+
+.habilidades__orden {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px 0 64px 0;
+}
+
+.portfolio__info {
+    display: grid;
+    grid-template-columns: 400px 300px;
+    grid-template-rows: 300px;
+}
+
+.portfolio__img {
+    width: 280px;
+    height: 300px;
+    border-radius: 1rem;
+}
+
+.portfolio__proyecto {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 64px 0 32px 0;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 0 32px 0;
+    row-gap: 1rem;
+}
+
+.linkedin{
+    font-size: 32px;
+    text-decoration: none;
+    color: gray;
+}
+
+.linkedin__link {
+    text-decoration: none;
+}
